@@ -1,0 +1,72 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size: 1rem;
+  background-color: #d3d3d3;
+}
+
+header img {
+  width: 9rem;
+  float: left;
+  padding: 2rem;
+  }
+
+h1 {
+  font-size: 3rem;
+  padding: 2.5rem;
+}
+
+nav {
+  clear: both;
+}
+
+nav a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+li { 	
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-size: 1.25rem;
+ 	text-align: center;
+  background-color: #6E7472;
+  list-style: none;
+}
+
+main {
+  clear: both;
+  padding: 3rem;
+  text-align: center;
+}
+
+article {
+  clear: both;
+  padding: 3rem;
+}
+
+article img {
+  width: 30%;
+  padding: 1rem;
+  float: left;
+  clear: both;
+}
+
+article p {
+  float: left;  
+  width: 65%;
+  align-items: center;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: .9rem;
+  line-height: .25rem;
+}
